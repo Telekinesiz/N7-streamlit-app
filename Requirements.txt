@@ -1,0 +1,17 @@
+praw
+os
+numpy
+streamlit
+pandas
+transformers
+nltk
+langdetect
+string
+requests
+PIL
+gensim
+pyLDAvis
+plotly
+warnings
+time
+datetime
