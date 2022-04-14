@@ -5,7 +5,6 @@ transformers
 nltk
 langdetect
 requests
-PIL
 gensim
 pyLDAvis
 plotly
