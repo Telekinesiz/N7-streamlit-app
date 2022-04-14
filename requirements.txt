@@ -1,6 +1,4 @@
 praw
-os
-numpy
 streamlit
 pandas
 transformers
@@ -12,6 +10,3 @@ PIL
 gensim
 pyLDAvis
 plotly
-warnings
-time
-datetime
