@@ -24,10 +24,10 @@ import time
 
 #credentials*********************************************************
 reddit_credentials = praw.Reddit(
-    user_agent=st.secrets['praw_user_agent'],
-    client_id=st.secrets['praw_client_id'],
-    client_secret=st.secrets['praw_client_secret'],
-    username=st.secrets['praw_username'],
+    user_agent=os.getenv('praw_user_agent'),
+    client_id=os.getenv('praw_client_id'),
+    client_secret=os.getenv('praw_client_secret'),
+    username=os.getenv('praw_username'),
     )
 
 headers = {
@@ -341,3 +341,6 @@ if __name__ == '__main__':
     st.subheader('Thanks for using. Have a nice day')
     image = Image.open('reddit_bye.png')
     st.image(image, use_column_width=True)
+
+    #  console command
+    #  streamlit run C:/Users/a_pletinski/PycharmProjects/streamlit/main.py
